@@ -22,10 +22,16 @@
     <Filter Include="Header Files\Scene">
       <UniqueIdentifier>{ccb93ffc-4793-4a2a-9d87-38707c255a26}</UniqueIdentifier>
     </Filter>
+    <Filter Include="LodePNG">
+      <UniqueIdentifier>{a30e86fe-cc42-46d7-bbef-c752ec74e71c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lodepng.cpp">
+      <Filter>LodePNG</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +58,12 @@
     </ClInclude>
     <ClInclude Include="Material.h">
       <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="lodepng.h">
+      <Filter>LodePNG</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
